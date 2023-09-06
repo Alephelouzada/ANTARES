@@ -13,7 +13,7 @@ nav{
    height: 100vh;   /* altura*/
    width: 260px;    /*quando coloca duas propriedades iguais, a segunda vai prevalecer*/
    width: 50vw;   /* largura*/
-   background: #0064647e;     /* fundo  ex: backgroud color - cor de fundo*/
+   background: #006464ef;     /* fundo  ex: backgroud color - cor de fundo*/
    position: fixed;       /* posição*/
    top: 0;               /*  cima ou principal*/
    left: 0;              /* esquerda*/
