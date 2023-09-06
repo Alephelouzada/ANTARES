@@ -1,179 +1,169 @@
-<DOCTYPE html>
-    <html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ANTARES</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link rel="shortcut icon" href="assts/i class=bi bi-alti.svg" type="image/x-icon">
-        <link rel="stylesheet" href="css/pages.css">
-    </head>
-
-    <body>
-
-        <nav>
-
-         
-            <div class="expandir">
-                <i class="bi bi-alt"></i>
-                <span class="text-list">ANTARES</span>
-            </div>
-
-            
-            <ul class="nav-links">
-                 <li class="item menu">
-                    <a href="# " class="home">
-                      <div class="icon-li">
-                    <i class="bi bi-house home">
-
-                    <span class="text-list home">
-                            Home
-                    </i>
-                    </a>
-                 </li>
-                      </div>
-                    </span>      
-                        
-
-                    <li class="item menu">
-                            <div class="icon-li">
-                                <a href="#"class=" Dashboard">
-
-                                    <i class="bi bi-bar-chart-line">
-
-                                    <span class="text-list  Dashboard"> 
-                                        Dashboard
-                           
-                                     </i>
-                                 </a>
-                            </div>
-                    </li>
-                                </span>
-
-                    <li class="item menu">
-                        <div class="icon-li"></div>
-                            <a href="#" class="client"></a>
-
-                             <i class="bi bi-person-circle"></i>
-
-                            <span class="text-list client">
-                                     client
-
-                            </span>
-                     
-
-                            <span class="arroow">
-                            <i class="bi bi-arrow-down-short"></i>
-                        
-                            <ul class="sub-menu">
-                                <a href="#"class="box">
-                                    <li><a href="#">consultar client</a></li>
-                                    <li><a href="#">cadastrar client</a></li>
-                                </a>
-                            </ul>
-                    </li>
-
-                </span>   
-                    
-                    <li class="item menu">
-                        <div class="icon-li"></div> 
-                            <a href="#"></a>  
-
-                                <i class="bi bi-box"></i>
-
-                                <span class="text-list box">
-                                    box
-                            <i class="bi bi-arrow-down-short"></i> 
-
-                                </span>
-
-                     <ul class="sub-menu">
-                        <a href="#">
-                            <li><a href="#">consultar box</a></li>
-                             <li><a href="#">cadastrar box</a></li>
-                            </a>
-                        
-                     </ul>    
-                    </li>
-                            
-
-                                              
-                              
-                              
-              
-                    <li class="item menu">
-                        <div class="icon-li"> </div>
-                            <a href="#" class="finalcial"></a> 
-
-                                <i class="bi bi-currency-dollar"></i>
-
-                                <span class="text-list finalcial">
-                                    financial
-
-                                <i class="bi bi-arrow-down-short"></i>
-
-                                </span>
-                             
-                             
-                                <ul class="sub-menu">
-                                    <a href="#">
-                                    <li><a href="#">consultar documento</a></li>
-                                    <li><a href="#">cadastrar documento</a></li>
-                                </a>
-                            </ul>
-                        </li>
-                           
-                       
-                   
-                               
-                        
-
-            </ul>
-
-        </nav>
-
-        <div id="conteudo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antares</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="assts/alt.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/page.css">
+</head>
 
 
-
+<body>
+    <nav>
+        <div class="expandir">
+            <i class="bi bi-alt"></i>
+            <span class="text-list">ANTARES</span>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <ul class="nav-links">
+            <li class="item-menu">
+                <a href="#" class="home">
 
-        <script>
+                    <i class="bi bi-house home"></i>
+                    <span class="text-list home">
+                        Home
 
-            $(".home").click(function(){
+                    </span>
 
-                $("#conteudo").load("pages/home.html");
 
-            });
-            $(".client").click(function(){
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#" class="Dashboard">
 
-                $("#conteudo").load("pages/client.html");
-
-            });
-            $(".box").click(function(){
-
-               $("#conteudo").load("pages/box.html");
-
-            });
-            
-            $(".finalcial").click(function(){
-
-              $("#conteudo").load("pages/financial.html");
-            });
-
-            $(".Dashboard").click(function(){
-
-               $("#conteudo").load("pages/Dashboard.html");
-            });
-
-        </script>
+                    <i class="bi bi-bar-chart-line Dashboard"></i>
 
 
 
-    </body>
 
-    </html>
+                    <span class="text-list Dashboard">
+                        Dashboard
+
+                    </span>
+
+
+                </a>
+            </li>
+            <li class="item-menu">
+                <div>
+                    <div class="icon-li">
+                        <a href="#" class="Cliente">
+
+                            <i class="bi bi-file-person-fill Cliente"></i>
+
+
+                            <span class="text-list Cliente">
+                                Cliente
+
+                            </span>
+                            <span class="arrow ">
+                                <i class="bi bi-arrow-down-short"></i>
+                            </span>
+
+
+                        </a>
+                        <ul class="sub-menu">
+
+
+                            <li><a href="#">Consultar cliente</a></li>
+                            <li><a href="#">Consultar cliente</a></li>
+
+
+                        </ul>
+                    </div>
+
+            </li>
+            <li class="item-menu">
+                <div>
+                    <div class="icon-li">
+                        <a href="#" class="Estoque">
+
+                            <i class="bi bi-box-seam Estoque"></i>
+
+
+                            <span class="text-list Estoque">
+                                Estoque
+
+                            </span>
+                            <span class="arrow">
+                                <i class="bi bi-arrow-down-short"></i>
+                            </span>
+
+
+                        </a>
+                        <ul class="sub-menu">
+
+
+                            <li><a href="#" class="Estoque">Consultar Produto</a></li>
+                            <li><a href="#" class="Estoque">Consultar Produto</a></li>
+
+
+                        </ul>
+                    </div>
+
+            </li>
+            <li class="item-menu">
+                <div>
+                    <div class="icon-li">
+                        <a href="#" class="Financeiro">
+
+                            <i class="bi bi-currency-dollar Financeiro"></i>
+
+
+                            <span class="text-list Financeiro">
+                                Financeiro
+
+                            </span>
+                            <span class="arrow Financeiro">
+                                <i class="bi bi-arrow-down-short"></i>
+                            </span>
+
+
+                        </a>
+                        <ul class="sub-menu">
+
+
+                            <li><a href="#">Consultar Movimento</a></li>
+                            <li><a href="#">Consultar Movimento</a></li>
+
+
+                        </ul>
+                    </div>
+
+        </ul>
+    </nav>
+    <div id="conteudo">
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(".home").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/home.html")
+        });
+
+        $(".Dashboard").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/Dashboard.html")
+        });
+
+        $(".Cliente").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/Cliente.html")
+        });
+
+        $(".Estoque").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/Estoque.html")
+        });
+
+        $(".Financeiro").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/Financeiro.html")
+        });
+    </script>
+</body>
+
+</html>
