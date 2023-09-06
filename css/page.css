@@ -13,7 +13,7 @@ nav{
    height: 100vh;   /* altura*/
    width: 260px;    /*quando coloca duas propriedades iguais, a segunda vai prevalecer*/
    width: 50vw;   /* largura*/
-   background: #006464ef;     /* fundo  ex: backgroud color - cor de fundo*/
+   background: #282929ef;     /* fundo  ex: backgroud color - cor de fundo*/
    position: fixed;       /* posição*/
    top: 0;               /*  cima ou principal*/
    left: 0;              /* esquerda*/
@@ -66,7 +66,7 @@ li{     /* li é  lista*/
     position: relative;
 }
 li:hover{ /* hover serve para fazer efeito ao passar o cursor*/
-    background:#07e93854;
+    background:#8c8d8c54;
 
 }
 .icon-li{
@@ -99,7 +99,7 @@ li .sub-menu{
     /*border: 2px solid red;*/
     padding: 6px 14px 80px;
     margin-top:-18px;
-    background: #006464;
+    background: #8c8d8c00;
     /*display: none;*/    /*mostrar / nenhum*/
 }
 li .sub-menu a{
@@ -123,4 +123,13 @@ li .sub-menu a:hover{
 }
 .form-floating label{
     left: 7px;
+}
+#btn-salvar{
+    background: #5f615f ;
+    border: none;
+    height: 3rem;
+    width: 8rem;
+}
+#btn-salvar:hover{
+  border: solid rgba(10, 10, 10, 0.644);
 }
