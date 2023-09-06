@@ -1,85 +1,59 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@900&display=swap');
-
-*{
-    
-        font-family: 'Handjet', cursive;
-    
-}
-
+*
 .main{
-    
-    width: 98vw;
-    height: 100vw;
-    background: #f3f3f3;
-    display: flex;
-    /* eixo x */
-    justify-content: center;
-    /* eixo y */
-    align-items: center;
-    
+background-image:url(a);   
+width :100vw;
+height :100vw; 
+background: #08baf0f1;
+display: flex;
+/* eixo x */
+justify-content: center;
+/* eixo y */
+ align-items: center; 
 }
-
-
+  
 .card{
-    /*border: 5px solid red;*/
-    width: 200px;
-    height: 90%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 80px 200px 80px 200px;
-    background: #f3f3f3;
-    
-    border-radius: 10px;
-    box-shadow: 0px 10px 40px rgba(1, 12, 10, 0.863);
-    color: #f3f3f3;
-}
-.card>h1{
-    
-    
-    
-    color: white;
-}
+    /* border :5px solid white;*/
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 150px 80px;
+     background:#f3f3f3;
+     border-radius: 20px;
+     box-shadow: 0px 18px 40px #e6e2e2;
+     color:#efeff5;
+   }
+   .card>h1{
+    color:#e4ebeca9;
+    font-weight:800;
+  }
+   .card{background-image: linear-gradient(to right, #000000fd,#000000ab,#000000);}
+.main{background-image: linear-gradient(to right,rgba(0, 0, 0, 0.993),#fffdfdc2,#030303fb);}
 
-.card { background-image: linear-gradient( to top,#7924A3,#4A1663,#A832E3,#B135F0, #952CC9); }
-.main { background-image: linear-gradient( to top,#7924A3,#4A1663,#A832E3,#B135F0, #952CC9); }
-
-.btn-login{
-    font-size: 15px;
-    width: 100%;
-    padding: 10px;
-    
-    
-    background-color: #B135F0;
-    color: black;
-    border-radius: 10px;
-    border: white;
    
-
-
-}
-.textfield{
-    
+   .btn_login{
+    width: 40%;
+    padding: 10px 0px;
+    margin: 25px;
+    border: none;
+    text-transform: lowercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:rgba(9, 10, 10, 0.945);
+    background-color: rgba(212, 224, 224, 0.308);
+    cursor: pointer;
+    box-shadow: 0px 10px rgba(22, 179,145,0,568); 
+   }
+ 
+   .textfield {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: inline;
+   } 
+   
 
-}
 
-input:focus{
-    color: blue;
-}
-input{
 
-    padding: 10px;
-    border-radius: 10px;
-    
-    
-    
-}
 
