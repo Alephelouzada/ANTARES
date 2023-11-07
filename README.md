@@ -35,6 +35,6 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 ## Deploy
 
-O projeto está disponível em [ANTARES no Vercel](antares-murex.vercel.app) para visualização.
+O projeto está disponível em [ANTARES no Vercel](https://antares-murex.vercel.app/) para visualização.
 
 Seja bem-vindo ao ANTARES, e sinta-se à vontade para contribuir ou entrar em contato conosco!
