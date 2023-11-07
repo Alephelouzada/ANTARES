@@ -31,7 +31,6 @@ VocÃª pode conferir o design da interface no [link do Figma]() para ter uma visÃ
 
 ## Preview
 
-
-
+![screencapture-127-0-0-1-5501-index-html-2023-11-07-14_27_39 (1)](https://github.com/Alephelouzada/ANTARES/assets/138677078/4db25bee-f04a-4288-b24b-3dae99d0216b)
 
 
