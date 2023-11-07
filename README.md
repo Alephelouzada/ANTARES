@@ -25,9 +25,6 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 - Organização eficiente de elementos em linhas e colunas, visando proporcionar uma experiência de usuário agradável.
 - Utilização de elementos sobrepostos para criar camadas de design envolventes e interessantes.
 
-## Interface
-
-Você pode conferir o design da interface no [link do Figma]() para ter uma visão detalhada de como o projeto se parece.
 
 ## Preview
 
