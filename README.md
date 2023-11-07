@@ -30,7 +30,8 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 
 
-![screencapture-127-0-0-1-5501-index-html-2023-11-07-14_27_39](https://github.com/Alephelouzada/ANTARES/assets/138677078/48dba804-b8ad-4ad6-af27-fa46c0efe120)
+
+![screencapture-antares-murex-vercel-app-2023-11-07-14_55_52](https://github.com/Alephelouzada/ANTARES/assets/138677078/5923c016-ed4d-4de5-a871-15d6432751fc)
 
 ![screencapture-antares-murex-vercel-app-pages-html-2023-11-07-14_44_40](https://github.com/Alephelouzada/ANTARES/assets/138677078/0397a11c-065a-4f6b-86d3-99781d936cb6)
 
