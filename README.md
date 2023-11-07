@@ -32,6 +32,7 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 ![screencapture-127-0-0-1-5501-index-html-2023-11-07-14_27_39](https://github.com/Alephelouzada/ANTARES/assets/138677078/48dba804-b8ad-4ad6-af27-fa46c0efe120)
 
+![screencapture-127-0-0-1-5501-index-html-2023-11-07-14_27_39 (1)](https://github.com/Alephelouzada/ANTARES/assets/138677078/c351114c-c5b0-4b9c-b4ba-1dedd2ca3149)
 
 ## Deploy
 
