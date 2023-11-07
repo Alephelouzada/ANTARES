@@ -1,6 +1,6 @@
 # ANTARES
 
-# Clone-Sistok
+
 
 ## Descrição
 
